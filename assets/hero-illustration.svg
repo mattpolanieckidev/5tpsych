@@ -1,0 +1,132 @@
+<svg viewBox="0 0 800 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A sunlit still life of a ceramic vase with sage branches on a wood table, in warm neutral tones">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7F2E9"/>
+      <stop offset="100%" stop-color="#EFE6D6"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9A378"/>
+      <stop offset="100%" stop-color="#A97E58"/>
+    </linearGradient>
+    <linearGradient id="woodTop" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#D9B894"/>
+      <stop offset="100%" stop-color="#C19A6E"/>
+    </linearGradient>
+    <linearGradient id="vase" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E3D9C7"/>
+      <stop offset="55%" stop-color="#EDE4D4"/>
+      <stop offset="100%" stop-color="#D2C4AC"/>
+    </linearGradient>
+    <linearGradient id="bowl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C98C6C"/>
+      <stop offset="100%" stop-color="#B8714F"/>
+    </linearGradient>
+    <radialGradient id="sunlight" cx="18%" cy="8%" r="75%">
+      <stop offset="0%" stop-color="#FFFBF2" stop-opacity="0.65"/>
+      <stop offset="45%" stop-color="#FFFBF2" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FFFBF2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="frameWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B8936A"/>
+      <stop offset="100%" stop-color="#96714C"/>
+    </linearGradient>
+    <linearGradient id="cushion" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B9A7B"/>
+      <stop offset="100%" stop-color="#71805F"/>
+    </linearGradient>
+    <radialGradient id="tableShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2E2A24" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#2E2A24" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect x="0" y="0" width="800" height="620"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- wall -->
+    <rect x="0" y="0" width="800" height="620" fill="url(#wall)"/>
+
+    <!-- soft window-light shadow stripes -->
+    <g opacity="0.55" transform="rotate(24 420 0)">
+      <rect x="150" y="-80" width="26" height="900" fill="#AFA489" opacity="0.14"/>
+      <rect x="230" y="-80" width="34" height="900" fill="#AFA489" opacity="0.10"/>
+      <rect x="320" y="-80" width="22" height="900" fill="#AFA489" opacity="0.12"/>
+      <rect x="400" y="-80" width="40" height="900" fill="#AFA489" opacity="0.08"/>
+      <rect x="500" y="-80" width="24" height="900" fill="#AFA489" opacity="0.10"/>
+    </g>
+
+    <!-- warm sunlight wash -->
+    <rect x="0" y="0" width="800" height="620" fill="url(#sunlight)"/>
+
+    <!-- cropped picture frame, upper right -->
+    <g transform="rotate(-2 760 60)">
+      <rect x="700" y="18" width="150" height="190" rx="2" fill="url(#frameWood)"/>
+      <rect x="712" y="30" width="126" height="166" fill="#F3ECDD"/>
+      <path d="M712 150 L760 95 L792 125 L838 90 L838 196 L712 196 Z" fill="#D7CDB6"/>
+      <circle cx="760" cy="62" r="11" fill="#E9C9A6"/>
+    </g>
+
+    <!-- soft cushion / sofa corner, lower right -->
+    <path d="M560 620 C560 520 620 470 700 468 C790 465 820 520 820 620 Z" fill="#EDE3D2"/>
+    <path d="M618 620 C612 540 652 492 716 486 C784 480 812 520 814 620 Z" fill="url(#cushion)"/>
+    <path d="M636 606 C640 548 672 512 722 506 C766 501 792 530 798 572" fill="none" stroke="#5E6E52" stroke-width="2" opacity="0.25" stroke-linecap="round"/>
+
+    <!-- table shadow -->
+    <ellipse cx="300" cy="455" rx="240" ry="36" fill="url(#tableShadow)"/>
+
+    <!-- round wood table -->
+    <path d="M70 430 Q300 500 530 430 L530 452 Q300 522 70 452 Z" fill="url(#wood)"/>
+    <ellipse cx="300" cy="430" rx="230" ry="46" fill="url(#woodTop)"/>
+    <ellipse cx="300" cy="430" rx="230" ry="46" fill="none" stroke="#8C6B48" stroke-width="2" opacity="0.4"/>
+
+    <!-- small ceramic bowl -->
+    <g transform="translate(398 404)">
+      <ellipse cx="0" cy="18" rx="46" ry="14" fill="url(#tableShadow)" opacity="0.5"/>
+      <path d="M-42 0 Q0 30 42 0 L38 14 Q0 38 -38 14 Z" fill="url(#bowl)"/>
+      <ellipse cx="0" cy="0" rx="42" ry="13" fill="#DE9D78"/>
+      <ellipse cx="0" cy="0" rx="30" ry="8" fill="#A9623F"/>
+    </g>
+
+    <!-- vase -->
+    <g transform="translate(228 240)">
+      <ellipse cx="0" cy="190" rx="58" ry="15" fill="url(#tableShadow)" opacity="0.6"/>
+      <path d="M-26 -12 C-34 -6 -38 6 -34 18 L-30 150 C-30 168 -16 180 0 180 C16 180 30 168 30 150 L34 18 C38 6 34 -6 26 -12 C 18 -20 -18 -20 -26 -12 Z" fill="url(#vase)"/>
+      <ellipse cx="0" cy="-14" rx="28" ry="9" fill="#D8CBB4"/>
+      <ellipse cx="0" cy="-14" rx="21" ry="6" fill="#BDAC8C"/>
+      <path d="M-20 10 C-24 60 -24 120 -16 170" fill="none" stroke="#C7B89B" stroke-width="3" opacity="0.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- branches rising from vase -->
+    <g transform="translate(228 226)" fill="none" stroke-linecap="round">
+      <path d="M-6 0 C-18 -70 -10 -140 10 -205" stroke="#5E6B4C" stroke-width="4"/>
+      <path d="M4 -10 C26 -70 30 -130 14 -185" stroke="#5E6B4C" stroke-width="3.5"/>
+      <path d="M-14 -4 C-42 -48 -56 -96 -58 -140" stroke="#5E6B4C" stroke-width="3"/>
+      <path d="M10 -6 C40 -40 56 -82 62 -118" stroke="#6B7857" stroke-width="3"/>
+
+      <g fill="#8B9A7B">
+        <ellipse cx="-2" cy="-40" rx="9" ry="16" transform="rotate(-18 -2 -40)"/>
+        <ellipse cx="8" cy="-62" rx="8" ry="15" transform="rotate(14 8 -62)"/>
+        <ellipse cx="-10" cy="-80" rx="9" ry="16" transform="rotate(-24 -10 -80)"/>
+        <ellipse cx="6" cy="-104" rx="8" ry="15" transform="rotate(10 6 -104)"/>
+        <ellipse cx="-4" cy="-128" rx="8" ry="15" transform="rotate(-14 -4 -128)"/>
+        <ellipse cx="10" cy="-150" rx="7" ry="13" transform="rotate(18 10 -150)"/>
+        <ellipse cx="2" cy="-174" rx="7" ry="13" transform="rotate(-10 2 -174)"/>
+        <ellipse cx="12" cy="-196" rx="6" ry="11" transform="rotate(16 12 -196)"/>
+      </g>
+      <g fill="#A3B093">
+        <ellipse cx="-26" cy="-56" rx="8" ry="14" transform="rotate(-30 -26 -56)"/>
+        <ellipse cx="-40" cy="-82" rx="8" ry="14" transform="rotate(-36 -40 -82)"/>
+        <ellipse cx="-50" cy="-108" rx="7" ry="13" transform="rotate(-26 -50 -108)"/>
+        <ellipse cx="-54" cy="-132" rx="6" ry="12" transform="rotate(-20 -54 -132)"/>
+      </g>
+      <g fill="#78866A">
+        <ellipse cx="30" cy="-36" rx="8" ry="14" transform="rotate(26 30 -36)"/>
+        <ellipse cx="42" cy="-58" rx="7" ry="13" transform="rotate(30 42 -58)"/>
+        <ellipse cx="52" cy="-82" rx="7" ry="13" transform="rotate(22 52 -82)"/>
+        <ellipse cx="58" cy="-104" rx="6" ry="11" transform="rotate(18 58 -104)"/>
+      </g>
+    </g>
+
+    <!-- gentle overall vignette for warmth -->
+    <rect x="0" y="0" width="800" height="620" fill="url(#sunlight)" opacity="0.4"/>
+  </g>
+</svg>
